@@ -1,3 +1,14 @@
+body {
+  background-color: #000 !important;
+}
+
+.title {
+  color: #dbdbdb;
+  text-align: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
 .search-bar {
   margin: 20px;
   text-align: center;
@@ -5,6 +16,9 @@
 
 .search-bar input {
   width: 75%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  color: #2f2f2f;
 }
 
 .video-item img {
@@ -12,18 +26,22 @@
 }
 
 .video-detail .details {
-  margin-top: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  color: #dbdbdb;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #595959;
+  border-radius: 2px;
 }
 
 .list-group-item {
   cursor: pointer;
+  background-color: #000 !important;
+  color: #dbdbdb !important;
+  border: 1px solid #575757 !important;
 }
 
 .list-group-item:hover {
-  background-color: #eee;
+  background-color: #3d3d3d !important;
 }
  
 

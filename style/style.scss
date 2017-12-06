@@ -1,8 +1,22 @@
+$grey: #dbdbdb;
+
+body{
+  background-color: #000 !important;
+}
+.title{
+  color: $grey;
+  text-align: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
 .search-bar {
   margin: 20px;
   text-align: center;
   input {
     width: 75%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    color: #2f2f2f;
   }
 }
 .video-item {
@@ -12,15 +26,19 @@
 }
 .video-detail {
   .details {
-    margin-top: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    color: $grey;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #595959;
+    border-radius: 2px;
   }
 }
 .list-group-item {
   cursor: pointer;
+  background-color: #000 !important;
+  color: $grey !important;
+  border: 1px solid #575757 !important;
   &:hover {
-    background-color: #eee;
+    background-color: rgb(61, 61, 61) !important;
   }
 }
